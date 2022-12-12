@@ -1,0 +1,41 @@
+body {
+    background-color: #384551;
+    }
+h1,h2,h3,h4,h5,h6 {
+    color: #B9B9AB;font-family: Didot;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #D1A97B;
+    overflow: hidden;
+    position: sticky;
+  }
+  li {
+    float:right;
+    position: sticky;
+  }
+  li a {
+display: block;
+padding: 8px;
+color: black;
+font-family: Didot;
+font-size: 15px;
+  }
+
+  .float-img{
+    float:left;
+    margin-right: 10px; 
+    margin-bottom: 5px;
+    border:1px;
+    padding: 2px;
+
+  }
+  @media (max-width: 600px) {
+    section, article {
+      width: 100%;
+      height: auto;
+    }
+  }
