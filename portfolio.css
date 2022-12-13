@@ -1,0 +1,31 @@
+.portfolio{
+    background-image: url(forest.png);
+    background-position:top, right,left;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+}
+
+/*billeder*/
+div.gallery {
+    margin: 5px;
+    border: 1px solid #d1a97b;
+    float: left;
+    width: 320px;
+    background-color: #D1A97B;
+    outline-style:hidden; 
+    border-radius: 1%;
+  }
+  
+  div.gallery:hover {
+    border: 3px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 25px;
+    text-align: center;
+  }

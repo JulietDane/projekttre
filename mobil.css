@@ -8,30 +8,29 @@ h1,h2,h3,h4,h5,h6 {
 hr.solid{
   border-top: 3px solid #D1A97B;
 }
-
+/*Billeder*/
 .bel{
   display: flex;
   flex-direction: row;
   float: right;
   max-block-size: 100px;
 }
-
-  .forest .float-img{
-    display:flex;
-    flex-direction: column;
-    float:left;
-    margin-right: 15px;
-    margin-right: 10px; 
-    margin-bottom: 5px;
-    border:1px;
-    padding: 2px;
-  }
+.forest .float-img{
+  display:flex;
+  flex-direction: column;
+  float:left;
+  margin-right: 15px;
+  margin-right: 10px; 
+  margin-bottom: 5px;
+  border:1px;
+  padding: 2px;
+}
   .float-img {
     width: 200%;
     height: auto;
     object-fit: cover;
   }
-
+/*Navigation*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -39,35 +38,41 @@ ul {
     background-color: #D1A97B;
     overflow: hidden;
     position: sticky;
+    width: 100%;
   }
   li {
     float:right;
     position: sticky;
   }
   li a {
-    display: block;
+    display: flex;
     padding: 8px;
     color: black;
     font-family: Didot;
+    text-decoration: none;
     font-size: 15px;
   }
-li a:hover{
+  li a:hover{
     background-color: #60747C;
-}
+  }
+  li a.split{
+  float: right;
+  background-color: #D1A97B;
+  color: black;
+  }
+
+/*SoMe Iconer*/
 .icons .fb .li .ig{
   width: 10%;
   height: 10%;
   border: 5px;
-  
 }
 
-
-  @media all and (max-width: 768px) {
+/*MediaQ*/
+  @media screen and (max-width: 600px) {
     all{
       width: 100%;
       height: auto;
       float: none;
     }
-      
-  }
-  
+  }  
