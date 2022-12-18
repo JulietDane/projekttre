@@ -1,19 +1,19 @@
 .portfolio{
     background-image: url(forest.png);
-    background-position:top, right,left;
+    background-position:top, right, left;
     background-repeat: no-repeat, repeat;
     padding: 15px;
 }
 
 /*billeder*/
 div.gallery {
-    margin: 5px;
+    margin: 20px;
     border: 1px solid #d1a97b;
     float: left;
     width: 320px;
     background-color: #D1A97B;
-    outline-style:hidden; 
     border-radius: 1%;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   }
   
   div.gallery:hover {
