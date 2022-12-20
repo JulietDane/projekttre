@@ -89,7 +89,7 @@ div.desc {
     width: 100%;
     height: 25%;
     object-fit: cover;
-    display:block;
+    display:flex;
     margin-left: auto;
     margin-right: auto;
   }
